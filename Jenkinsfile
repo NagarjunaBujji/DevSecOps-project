@@ -21,7 +21,7 @@ pipeline {
         stage("Checkout Code") {
             steps {
                 git branch: 'main',
-                url: 'https://github.com/NagarjunaBujji/devsecops-porject.git'
+                url: 'https://github.com/NagarjunaBujji/DevSecOps-project.git'
             }
         }
 
